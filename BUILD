@@ -36,6 +36,7 @@ cc_binary(
     srcs = [
         "tools/show_cpusage.cc",
     ],
+    visibility = ["//visibility:public"],
     deps = [
         "//:cpu_massager",
     ],
