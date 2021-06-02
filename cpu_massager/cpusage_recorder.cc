@@ -13,7 +13,7 @@ namespace cpu_massager {
 using std::vector;
 
 void CPUsageRecorder::AddRecord(float cpusage) {
-  if (cpusage < 0 || cpusage > 100) {
+  if (cpusage < 0) {
     return;
   }
 
